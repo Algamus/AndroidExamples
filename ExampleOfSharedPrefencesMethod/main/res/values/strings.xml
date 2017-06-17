@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExampleOfSharedPrefencesMethod</string>
+    <string name="hello">So Say SomeThing...</string>
+</resources>
