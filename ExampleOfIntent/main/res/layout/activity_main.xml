@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Browser"
+        android:onClick="callIntent"
+        android:id="@+id/button01"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:width="100px"
+        android:layout_height="wrap_content"
+        android:text="Call SomeOne"
+        android:onClick="callIntent"
+        android:id="@+id/button02"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:width="100px"
+        android:layout_height="wrap_content"
+        android:text="Dial"
+        android:onClick="callIntent"
+        android:id="@+id/button03"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:width="100px"
+        android:layout_height="wrap_content"
+        android:text="Show Map"
+        android:onClick="callIntent"
+        android:id="@+id/button04"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:width="100px"
+        android:layout_height="wrap_content"
+        android:text="SearchOnMap"
+        android:onClick="callIntent"
+        android:id="@+id/button05"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:width="100px"
+        android:layout_height="wrap_content"
+        android:text="Take Picture"
+        android:onClick="callIntent"
+        android:id="@+id/button06"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:width="100px"
+        android:layout_height="wrap_content"
+        android:text="Show Contacts"
+        android:onClick="callIntent"
+        android:id="@+id/button07"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:width="100px"
+        android:layout_height="wrap_content"
+        android:text="Edit First Contact"
+        android:onClick="callIntent"
+        android:id="@+id/button08"/>
+
+
+
+</LinearLayout>
